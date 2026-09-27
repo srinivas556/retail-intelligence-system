@@ -1,0 +1,2 @@
+{% extends "base.html" %}{% block title %}Prediction{% endblock %}
+{% block content %}<div class="center panel"><p class="eyebrow">QUICK ESTIMATE</p><h1>Estimated sales</h1><div class="big">₹{{ "{:,.2f}".format(result.predicted_sales) }}</div><p>{{ result.note }}</p><a class="button" href="{{ url_for('index') }}">Back to dashboard</a></div>{% endblock %}

@@ -1,0 +1,41 @@
+Date,Store,Region,Product,Category,Customer_ID,Quantity,Unit_Price,Discount,Sales
+2026-08-01,Store A,South,Laptop,Electronics,C001,2,65000,0.05,123500
+2026-08-02,Store A,South,Headphones,Electronics,C002,5,22000,0.1,99000
+2026-08-03,Store B,East,Rice,Grocery,C003,4,4500,0.0,18000
+2026-08-04,Store A,South,Monitor,Electronics,C004,2,18000,0.05,34200
+2026-08-05,Store C,West,Keyboard,Electronics,C005,3,8000,0.1,21600
+2026-08-06,Store B,East,Mixer,Home,C006,4,15000,0.05,57000
+2026-08-07,Store C,West,Soap,Personal Care,C007,8,2500,0.0,20000
+2026-08-08,Store A,South,Pen,Stationery,C008,10,1200,0.05,11400
+2026-08-09,Store B,East,Printer,Electronics,C009,3,30000,0.1,81000
+2026-08-10,Store A,South,Chair,Home,C010,2,28000,0.05,53200
+2026-08-11,Store C,West,Table,Home,C011,1,65000,0.0,65000
+2026-08-12,Store B,East,Shampoo,Personal Care,C012,6,3500,0.05,19950
+2026-08-13,Store A,South,Notebook,Stationery,C013,7,1800,0.1,11340
+2026-08-14,Store C,West,Phone,Electronics,C014,3,25000,0.05,71250
+2026-08-15,Store B,East,Oil,Grocery,C015,5,5000,0.0,25000
+2026-08-16,Store A,South,Keyboard,Electronics,C016,6,8000,0.05,45600
+2026-08-17,Store C,West,Rice,Grocery,C017,10,4500,0.05,42750
+2026-08-18,Store B,East,Monitor,Electronics,C018,4,18000,0.1,64800
+2026-08-19,Store A,South,Mixer,Home,C019,2,15000,0.0,30000
+2026-08-20,Store C,West,Headphones,Electronics,C020,8,22000,0.05,167200
+2026-08-21,Store B,East,Laptop,Electronics,C021,1,65000,0.1,58500
+2026-08-22,Store A,South,Soap,Personal Care,C022,12,2500,0.05,28500
+2026-08-23,Store C,West,Printer,Electronics,C023,2,30000,0.05,57000
+2026-08-24,Store B,East,Chair,Home,C024,3,28000,0.1,75600
+2026-08-25,Store A,South,Table,Home,C025,2,65000,0.05,123500
+2026-08-26,Store C,West,Shampoo,Personal Care,C026,9,3500,0.0,31500
+2026-08-27,Store B,East,Notebook,Stationery,C027,10,1800,0.05,17100
+2026-08-28,Store A,South,Phone,Electronics,C028,2,25000,0.1,45000
+2026-08-29,Store C,West,Oil,Grocery,C029,8,5000,0.05,38000
+2026-08-30,Store B,East,Laptop,Electronics,C030,2,65000,0.0,130000
+2026-08-31,Store A,South,Headphones,Electronics,C031,4,22000,0.05,83600
+2026-09-01,Store C,West,Rice,Grocery,C032,12,4500,0.1,48600
+2026-09-02,Store B,East,Monitor,Electronics,C033,3,18000,0.05,51300
+2026-09-03,Store A,South,Keyboard,Electronics,C034,5,8000,0.0,40000
+2026-09-04,Store C,West,Mixer,Home,C035,3,15000,0.1,40500
+2026-09-05,Store B,East,Soap,Personal Care,C036,15,2500,0.05,35625
+2026-09-06,Store A,South,Pen,Stationery,C037,20,1200,0.0,24000
+2026-09-07,Store C,West,Printer,Electronics,C038,4,30000,0.1,108000
+2026-09-08,Store B,East,Chair,Home,C039,2,28000,0.05,53200
+2026-09-09,Store A,South,Phone,Electronics,C040,4,25000,0.05,95000

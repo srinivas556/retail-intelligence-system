@@ -1,0 +1,13 @@
+{% extends "base.html" %}{% block title %}Retail Intelligence{% endblock %}
+{% block content %}
+<section class="hero">
+  <div><p class="eyebrow">AI-ASSISTED RETAIL ANALYTICS</p><h1>Turn sales history into <span>smarter shelf decisions.</span></h1>
+  <p class="lead">Upload your previous retail sales data. The system analyzes demand, evaluates a Linear Regression model, forecasts product demand and generates transparent rack-placement suggestions.</p></div>
+  <div class="panel upload"><h2>Upload historical data</h2><p>CSV, XLSX or XLS · at least 5 rows</p>
+  <form action="{{ url_for('analyze') }}" method="post" enctype="multipart/form-data">
+  <input type="file" name="file" accept=".csv,.xlsx,.xls" required><button>Analyze my data →</button></form>
+  <a class="sample" href="{{ url_for('sample') }}">Download sample dataset</a></div>
+</section>
+<section class="grid3"><div class="card"><b>01</b><h3>Analyze</h3><p>Clean transaction data and calculate sales statistics.</p></div><div class="card"><b>02</b><h3>Predict</h3><p>Train a transparent Linear Regression demand model.</p></div><div class="card"><b>03</b><h3>Arrange</h3><p>Convert predicted demand into understandable rack-placement guidance.</p></div></section>
+<section class="panel"><h2>Quick transaction estimate</h2><form class="formgrid" action="{{ url_for('predict') }}" method="post"><label>Quantity<input name="quantity" type="number" step="any" value="5" required></label><label>Unit price<input name="unit_price" type="number" step="any" value="20000" required></label><label>Discount<input name="discount" type="number" step="any" value="0.05" required></label><button>Estimate sales</button></form></section>
+{% endblock %}
